@@ -14,6 +14,8 @@ namespace WP_2020_01_HW02_9A713008_11_19
 {
     public partial class Form1 : Form
     {
+        int i;
+        List<int> result = new List<int>();
         List<Image> list = new List<Image>();
         int times = 0;
         public Form1()
@@ -30,7 +32,15 @@ namespace WP_2020_01_HW02_9A713008_11_19
             {
                 MessageBox.Show("MD還按");   
             }
+            //GetPoker p = new GetPoker();
+            //List<int> getpoker = p.Poker(52);
 
+            //string msg = "";
+            //for(int i = 0; i<getpoker.Count;i++)
+            //{
+            //    msg += $"{getpoker[i]} ,";
+            //}
+            //rTB1.Text = msg + "\n";
             Random a = new Random();//亂數種子
             int i = a.Next(0, 52);
             pB1.Image = list[i];
@@ -94,7 +104,7 @@ namespace WP_2020_01_HW02_9A713008_11_19
             list.Add(Resources.P51);
             list.Add(Resources.P52);
             #endregion
-            
+           
         }
         private void Form1_Shown(object sender, EventArgs e)
         {

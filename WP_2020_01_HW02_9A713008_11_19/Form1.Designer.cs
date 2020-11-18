@@ -68,7 +68,7 @@
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("微軟正黑體", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn2.Location = new System.Drawing.Point(375, 57);
+            this.btn2.Location = new System.Drawing.Point(375, 48);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(167, 115);
             this.btn2.TabIndex = 3;
