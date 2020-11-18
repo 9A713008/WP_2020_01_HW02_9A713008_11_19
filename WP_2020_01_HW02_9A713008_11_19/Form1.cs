@@ -13,9 +13,7 @@ using WP_2020_01_HW02_9A713008_11_19.Properties;
 namespace WP_2020_01_HW02_9A713008_11_19
 {
     public partial class Form1 : Form
-    {
-        int i;
-        List<int> result = new List<int>();
+    { 
         List<Image> list = new List<Image>();
         int times = 0;
         public Form1()
@@ -36,7 +34,7 @@ namespace WP_2020_01_HW02_9A713008_11_19
             //List<int> getpoker = p.Poker(52);
 
             //string msg = "";
-            //for(int i = 0; i<getpoker.Count;i++)
+            //for (int p = 0; p < getpoker.Count; p++)
             //{
             //    msg += $"{getpoker[i]} ,";
             //}
